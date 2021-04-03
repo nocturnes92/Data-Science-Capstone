@@ -80,10 +80,10 @@ data.frame("filename" = c("blogs", "news", "twitter"),
 
 ## Preprocessing
 
-### Important - limited sample size
+#### Important - limited sample size
 
 Since our work will eventually be applied to a shinyapp, and it will be deploied to the free server provided by Rstuido, which is not an very powerful one, so we have to sacrifice some accuracy to get better computing time. 
-We just focus on the date from twitter and take a small sample size to analyse.
+We just focus on the English text and the data from twitter and take a small sample size to analyse.
 
 
 ```r
@@ -91,7 +91,7 @@ set.seed(1234)
 twsample <- sample(twitter, length(twitter)*0.05 ) #take sample
 ```
 
-### Filter punctuations, numbers and etc.
+### Filtering punctuations, numbers and etc.
 
 
 ```r
@@ -129,11 +129,11 @@ wordcloud(twsample, max.words = 100, random.order = FALSE,
 
 ![](Milestone-Report_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
 
-### Tokenization and n-gram Method
+### Tokenization and N-gram Method
 
 N-gram is a contiguous sequence of n items from a given sample of text or speech.
-Here, we will obtain unigrams, nigrams trigrams quadgrams.
-Since the code of processing n-gram method with different n taken, it is tedious to show all code, so here we just show the code for getting unigram. 
+Here, we will obtain unigrams, nigrams, trigrams and quadgrams.
+Since the code of processing n-gram method with different n taken are similaer, and it is tedious to show a bunch of repeated code, so here we just show the code for getting unigram and the code for integrating plots.
 
 
 ```r
@@ -166,7 +166,7 @@ ggarrange(uni, bi, tri, qua, ncol = 2, nrow = 2)
 ## Conclusion and Next Steps
 
 1. We can see some trends from the word cloud and our bar plot, but if we have a given word and we want to predict the next word people may use, we still need more work to do.
-2. We make modeling our data with machine learning methods.
+2. We are modeling our data with machine learning methods.
 3. Build and deploy a interactive shiny app for users, which can do the word predication.
 4. Make slides for presentation to introduction the our shiny app.
 

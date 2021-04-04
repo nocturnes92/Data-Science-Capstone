@@ -163,6 +163,94 @@ The goal of this project is just to display that you've gotten used to working w
 3. Report any interesting findings that you amassed so far.
 4. Get feedback on your plans for creating a prediction algorithm and Shiny app. 
 
+## Task 4 - Prediction Model
+
+The goal of this exercise is to build and evaluate your first predictive model. You will use the n-gram and backoff models you built in previous tasks to build and evaluate your predictive model. The goal is to make the model efficient and accurate. 
+
+*Tasks to accomplish*
+
+1. Build a predictive model based on the previous data modeling steps - you may combine the models in any way you think is appropriate.
+2. Evaluate the model for efficiency and accuracy - use timing software to evaluate the computational complexity of your model. Evaluate the model accuracy using different metrics like perplexity, accuracy at the first word, second word, and third word.
+
+*Questions to consider*
+
+1. How does the model perform for different choices of the parameters and size of the model?
+2. How much does the model slow down for the performance you gain?
+3. Does perplexity correlate with the other measures of accuracy?
+4. Can you reduce the size of the model (number of parameters) without reducing performance?
+
+## Task 5 - Creative Exploration
+
+So far you have used basic models to understand and predict words. In this next task, your goal is to use all the resources you have available to you (from the Data Science Specialization, resources on the web, or your own creativity) to improve the predictive accuracy while reducing computational runtime and model complexity (if you can). Be sure to hold out a test set to evaluate the new, more creative models you are building.
+
+*Tasks to accomplish*
+
+1. Explore new models and data to improve your predictive model.
+2. Evaluate your new predictions on both accuracy and efficiency. 
+
+*Questions to consider*
+
+1. What are some alternative data sets you could consider using? 
+2. What are ways in which the n-gram model may be inefficient?
+3. What are the most commonly missed n-grams? Can you think of a reason why they would be missed and fix that? 
+4. What are some other things that other people have tried to improve their model? 
+5. Can you estimate how uncertain you are about the words you are predicting? 
+
+## Task 6 - Data Product
+
+The goal of this exercise is to create a product to highlight the prediction algorithm that you have built and to provide an interface that can be accessed by others via a Shiny app..
+
+*Tasks to accomplish*
+
+1. Create a data product to show off your prediction algorithm You should create a Shiny app that accepts an n-gram and predicts the next word.
+
+*Questions to consider*
+
+1. What are the most interesting ways you could show off your algorithm?
+2. Are there any data visualizations you think might be helpful (look at the Swiftkey data dashboard if you have it loaded on your phone)?
+3. How should you document the use of your data product (separately from how you created it) so that others can rapidly deploy your algorithm?
+
+*Tips, tricks, and hints*
+
+1. Consider the size of the predictive model you have developed. You may have to sacrifice some accuracy to have a fast enough/small enough model to load into Shiny. 
+
+## Task 7 - Slide Deck
+
+The goal of this exercise is to "pitch" your data product to your boss or an investor. The slide deck is constrained to be 5 slides or less and should: (1) explain how your model works, (2) describe its predictive performance quantitatively and (3) show off the app and how it works. 
+
+*Tasks to accomplish*
+
+1. Create a slide deck promoting your product. Write 5 slides using RStudio Presenter explaining your product and why it is awesome!
+
+*Questions to consider*
+
+1. How can you briefly explain how your predictive model works?
+2. How can you succinctly quantitatively summarize the performance of your prediction algorithm?
+How can you show the user how the product works?
+
+*Tips, tricks, and hints*
+
+1. The Rstudio presentation information is available here (https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations). 
+
+## Final Project Submission
+
+The goal of this exercise is to create a product to highlight the prediction algorithm that you have built and to provide an interface that can be accessed by others. For this project you must submit:
+
+1. A Shiny app that takes as input a phrase (multiple words) in a text box input and outputs a prediction of the next word.
+2. A slide deck consisting of no more than 5 slides created with R Studio Presenter (https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations) pitching your algorithm and app as if you were presenting to your boss or an investor.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

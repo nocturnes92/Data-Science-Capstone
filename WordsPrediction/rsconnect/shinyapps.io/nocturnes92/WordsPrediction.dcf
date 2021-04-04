@@ -1,0 +1,12 @@
+name: WordsPrediction
+title: WordsPrediction
+username:
+account: nocturnes92
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3907466
+bundleId: 4429538
+url: https://nocturnes92.shinyapps.io/WordsPrediction/
+when: 1617528606.44042
+asMultiple: FALSE
+asStatic: FALSE

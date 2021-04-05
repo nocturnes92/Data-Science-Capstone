@@ -12,6 +12,6 @@ A finished shinyapp for word prediction
 https://nocturnes92.shinyapps.io/WordsPrediction/  
 R code: https://github.com/nocturnes92/Data-Science-Capstone/tree/main/WordsPrediction
 
-### Rpes
+### Rpres
 A simple R presenation to illustrate shinyapp  
 https://rpubs.com/nocturnes92/749602  

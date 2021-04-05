@@ -8,7 +8,7 @@ A project report of data cleaning and data processing
 https://rpubs.com/nocturnes92/748976  
 
 ### Shinyappp
-A prototype shinyapp for word prediction and trend display 
+A prototype shinyapp for word prediction and trend display   
 https://nocturnes92.shinyapps.io/WordsPrediction/  
 R code: https://github.com/nocturnes92/Data-Science-Capstone/tree/main/WordsPrediction
 

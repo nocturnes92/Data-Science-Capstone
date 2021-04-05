@@ -4,7 +4,7 @@
 - More details about the whole project please read `Project-Overview.md`
 
 ### Milestone Project
-A project of data cleaning and data processing   
+A project report of data cleaning and data processing   
 https://rpubs.com/nocturnes92/748976  
 
 ### Shinyappp
